@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/*меню*/
+
+.panel {
+    position: absolute;
+    width: 1440px;
+    height: 120px;
+    font-family: Cormorant Garamond;
+    font-size: 23px;
+    color: #B08EAD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>.panel>ul>li {
+    position: relative;
+    float: left;
+}
+
+header>.panel>ul>li>a {
+    padding: 0 40px;
+    color: #B08EAD;
+    font-family: Cormorant Garamond;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+header>.panel>img {
+    width: 122px;
+    height: 63px;
+    padding-right: 25.5px;
+    margin-left: 113px;
+}
+
+header>.panel>ul>.foto2 {
+    padding-left: 5px;
+    padding-right: 140px;
+    width: 22px;
+    height: 20px;
+}
+
+/*1 страница*/
+
+.fon-a {
+    position: relative;
+    width: 1440px;
+    height: 458px;
+    background: #C9ADC6;
+    top: 120px;
+}
+
+.fon-b {
+    position: relative;
+    width: 1440px;
+    height: 359px;
+    background: #D6BBD3;
+    top: 120px;
+}
+
+.foto3 {
+    position: absolute;
+    width: 851px;
+    height: 675px;
+    top: 192px;
+    left: 178px;
+    padding-left: 113px;
+}
+
+.zakladca {
+    position: absolute;
+    width: 425px;
+    height: 450px;
+    background: #B08EAD;
+    top: 182px;
+    margin: 113px;
+    margin: 120px;
+    left: 902px;
+}
+
+.text2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 124px 40px;
+    padding-bottom: 0;
+}
+
+.text3 {
+    color: #FFF;
+    font-family: Cormorant Garamond;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    padding: 10px 40px;
+    padding-bottom: 0;
+}
+
+.text4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 22px 40px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+/*страница 2*/
+
+.list {
+    position: absolute;
+    width: 1265px;
+    height: 658px;
+    top: 1012px;
+    padding: 0 25px;
+}
+
+.text5 {
+    color: #B99BB6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.text6 {
+    color: #5F4D5D;
+    text-align: center;
+    font-family: Cormorant Garamond;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.text7 {
+
+}
+
+.text>a {
+    color: #B99BB6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
